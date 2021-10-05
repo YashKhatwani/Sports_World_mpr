@@ -1,0 +1,25 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+/* 
+.slider-logo1{
+    
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-color: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) ;
+}
+
+.slider-logo2{
+    
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-color: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) ;
+   
+}
+.slider-logo3{
+    
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-color: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) ;
+    
+} 
+*/
