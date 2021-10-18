@@ -13,6 +13,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./Orders/Orders";
 import Slider from "./Slider";
 import Category_Header from "./CategoryHeader/Category_Header";
+import Cricket from "./Sports/Cricket";
 
 const promise = loadStripe(
   "pk_test_51JTq1wSFXfBk6YJLMZtJcO1hHDLOqGIaOURCNFSV5EJVsHxhGBIO1GMwDpnvy3UhCUkdE7xqKXUedlTdIaOjY3ov00DzsOefNm"
@@ -62,12 +63,24 @@ function App() {
               <Payment />
             </Elements>
           </Route>
-          <Route path="/category">
+          <Route path="/Sports">
+            <Header />
+            <Category_Header />
+            <Cricket />
+          </Route>
+          <Route path="/cricket">
+            <Header />
+            <Category_Header />
+            <Cricket />
+          </Route>
+          <Route path="/Brands">
+            <Header />
+          </Route>
+          <Route path="/Contacts">
             <Header />
           </Route>
           <Route path="/">
             <Header />
-            <Category_Header />
             <Slider />
             <Home />
           </Route>

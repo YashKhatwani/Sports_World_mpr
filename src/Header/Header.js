@@ -25,9 +25,27 @@ function Header() {
       </Link>
 
       <div className="header__category">
-        <Link to="/category" style={{color:"white",textDecoration:"none"}} >
-          <h3 >Category</h3>
-        </Link>
+        <div className="Category_element">
+          <Link
+            to="/Sports/cricket"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            <h3>Sports</h3>
+          </Link>
+        </div>
+        <div className="Category_element">
+          <Link to="/Brands" style={{ color: "white", textDecoration: "none" }}>
+            <h3>Brands</h3>
+          </Link>
+        </div>
+        <div className="Category_element">
+          <Link
+            to="/Contacts"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            <h3>Contacts</h3>
+          </Link>
+        </div>
       </div>
 
       <div className="header__search">
