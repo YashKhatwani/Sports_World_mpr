@@ -9,9 +9,9 @@ import { getBasketTotal } from "../../reducer";
 import axios from "../../axios";
 import { db } from "../../firebase";
 
+
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
-
   const history = useHistory();
 
   const stripe = useStripe();
@@ -59,19 +59,20 @@ function Payment() {
           .collection("orders")
           .doc(paymentIntent.id)
           .set({
-            basket: basket,
-            amount: paymentIntent.amount,
-            created: paymentIntent.created,
-          });
+          basket: basket,
+          amount: paymentIntent.amount,
+          created: paymentIntent.created,
+        })
+
         setSucceeded(true);
         setError(null);
         setProcessing(false);
 
         dispatch({
           type: "EMPTY_BASKET",
-        });
+        })
 
-        history.replace("/orders");
+        history.replace("/orders")
       });
   };
 
@@ -142,7 +143,7 @@ function Payment() {
                 <button disabled={processing || disabled || succeeded}>
                   <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                 </button>
-              </div>
+              </div>  
 
               {/* Errors */}
               {error && <div>{error}</div>}

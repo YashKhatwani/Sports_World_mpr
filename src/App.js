@@ -14,6 +14,8 @@ import Orders from "./Orders/Orders";
 import Slider from "./Slider";
 import Category_Header from "./CategoryHeader/Category_Header";
 import Cricket from "./Sports/Cricket";
+import Football from "./Sports/football/Football";
+import Tennis from "./Sports/tennis/Tennis";
 
 const promise = loadStripe(
   "pk_test_51JTq1wSFXfBk6YJLMZtJcO1hHDLOqGIaOURCNFSV5EJVsHxhGBIO1GMwDpnvy3UhCUkdE7xqKXUedlTdIaOjY3ov00DzsOefNm"
@@ -66,12 +68,17 @@ function App() {
           <Route path="/Sports">
             <Header />
             <Category_Header />
-            <Cricket />
-          </Route>
-          <Route path="/cricket">
-            <Header />
-            <Category_Header />
-            <Cricket />
+            <Switch>
+              <Route path="/Sports/cricket">
+                <Cricket />
+              </Route>
+              <Route path="/Sports/Football">
+                <Football />
+              </Route>
+              <Route path="/Sports/Tennis">
+                <Tennis />
+              </Route>
+            </Switch>
           </Route>
           <Route path="/Brands">
             <Header />

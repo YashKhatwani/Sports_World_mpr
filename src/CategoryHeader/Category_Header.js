@@ -14,7 +14,7 @@ export default function Category_Header() {
             <div className="header__category__sports">
               <div className="Sport_element">
                 <Link
-                  to="/Sports/cricket"
+                  to="cricket"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   <h4>Cricket</h4>
@@ -22,7 +22,7 @@ export default function Category_Header() {
               </div>
               <div className="Sport_element">
                 <Link
-                  to="/Sports/Football"
+                  to="Football"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   <h4>Football</h4>
@@ -30,7 +30,7 @@ export default function Category_Header() {
               </div>
               <div className="Sport_element">
                 <Link
-                  to="/Sports/Tennis"
+                  to="Tennis"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   <h4>Tennis</h4>
