@@ -24,4 +24,4 @@ yarn-error.log*
 package-lock.json
 src/Subtotal/Payment/Payment.css
 functions/index.js
-functions/firebase-debug.log
+

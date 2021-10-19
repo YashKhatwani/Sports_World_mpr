@@ -16,6 +16,8 @@ import Category_Header from "./CategoryHeader/Category_Header";
 import Cricket from "./Sports/Cricket";
 import Football from "./Sports/football/Football";
 import Tennis from "./Sports/tennis/Tennis";
+import Brands from "./Brands/Brands";
+import Contacts from "./Contacs/Contacts";
 
 const promise = loadStripe(
   "pk_test_51JTq1wSFXfBk6YJLMZtJcO1hHDLOqGIaOURCNFSV5EJVsHxhGBIO1GMwDpnvy3UhCUkdE7xqKXUedlTdIaOjY3ov00DzsOefNm"
@@ -82,9 +84,11 @@ function App() {
           </Route>
           <Route path="/Brands">
             <Header />
+            <Brands />
           </Route>
           <Route path="/Contacts">
             <Header />
+            <Contacts />
           </Route>
           <Route path="/">
             <Header />
