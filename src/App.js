@@ -18,6 +18,10 @@ import Football from "./Sports/football/Football";
 import Tennis from "./Sports/tennis/Tennis";
 import Brands from "./Brands/Brands";
 import Contacts from "./Contacs/Contacts";
+import Brand_Header from "./Brands/BrandHeader";
+import Nike from "./Brands/Nike";
+import Adidas from "./Brands/Adidas";
+import Puma from "./Brands/Puma";
 
 const promise = loadStripe(
   "pk_test_51JTq1wSFXfBk6YJLMZtJcO1hHDLOqGIaOURCNFSV5EJVsHxhGBIO1GMwDpnvy3UhCUkdE7xqKXUedlTdIaOjY3ov00DzsOefNm"
@@ -84,7 +88,18 @@ function App() {
           </Route>
           <Route path="/Brands">
             <Header />
-            <Brands />
+            <Brand_Header />
+            <Switch>
+              <Route path="/Brands/Nike">
+                <Nike />
+              </Route>
+              <Route path="/Brands/Adidas">
+                <Adidas />
+              </Route>
+              <Route path="/Brands/Puma">
+                <Puma />
+              </Route>
+            </Switch>
           </Route>
           <Route path="/Contacts">
             <Header />

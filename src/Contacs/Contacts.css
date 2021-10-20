@@ -1,0 +1,28 @@
+body {
+  background-color: aqua;
+}
+.contactForm {
+  position: absolute;
+  border: 3px solid green;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(158, 247, 118, 0.945);
+}
+
+.mb-3 {
+  color: blue;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  font-style: bold;
+}
+
+.Button {
+  position: relative;
+  left: 45%;
+}

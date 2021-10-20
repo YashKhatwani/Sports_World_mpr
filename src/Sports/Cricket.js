@@ -13,40 +13,40 @@ function Cricket() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="Nike Mercurial Veloce III DF CR7 FG Football Shoes"
+            title="Duke red leather ball"
             price={10000}
             rating={5}
-            image="https://storage.sg.content-cdn.io/cdn-cgi/image/%7Bwidth%7D,%7Bheight%7D,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NK852518-001.jpg"
+            image="https://cdn.shopify.com/s/files/1/0066/6563/3903/products/pic_4bdabee0-4043-4308-8f31-2bc7a2ae57ef_960x.progressive.jpg?v=1575349436"
           />
           <Product
             id="49538094"
-            title="Nike Strike Football (White/Blue)"
+            title="Nike Strike Gloves (White/Blue)"
             price={300}
             rating={4}
-            image="https://storage.sg.content-cdn.io/cdn-cgi/image/width=780,height=780,quality=75,format=auto/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NKSC2983-135.jpg"
+            image="https://i.ebayimg.com/images/g/rp8AAOSwca1gaoIO/s-l400.jpg"
           />
         </div>
         <div className="home__row">
           <Product
             id="4903850"
-            title="Adidas All Court Basketball (Size 7)"
+            title="SS glory LED criket stumps"
             price={2000}
             rating={3}
-            image="https://storage.sg.content-cdn.io/cdn-cgi/image/%7Bwidth%7D,%7Bheight%7D,quality=75,format=auto/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADX35859L.jpg"
+            image="https://www.sportsuncle.com/image/cache/catalog/images/ss/led-stumps-1200x1200.webp"
           />
           <Product
             id="23445930"
-            title="Nike Zoom Devosion Basketball Shoes (Black/Silver/Volt)"
+            title="Nike Zoom Devosion Cricket Shoes (Black/Silver/Volt)"
             price={6000}
             rating={5}
             image="https://storage.sg.content-cdn.io/cdn-cgi/image/%7Bwidth%7D,%7Bheight%7D,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NK844592-002.jpg"
           />
           <Product
             id="3254354345"
-            title="Stag Solid Steel Basketball Ring (20 mm)"
+            title="GM complete Cricket Kit"
             price={4000}
             rating={4}
-            image="https://storage.sg.content-cdn.io/cdn-cgi/image/width=780,height=780,quality=75,format=auto/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/STABBRSS20.jpg"
+            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvQGQW92p6sDiNScGJOX8ypL7Gt-PMIlHyNg&usqp=CAU"
           />
         </div>
         <div className="home__row">
